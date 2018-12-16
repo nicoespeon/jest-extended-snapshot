@@ -1,0 +1,45 @@
+{
+  "name": "jest-extended-snapshot",
+  "version": "1.0.0",
+  "description": "Additional Jest matchers for snapshot testing",
+  "repository": "https://github.com/nicoespeon/jest-extended-snapshot",
+  "author": "Nicolas Carlo <nicolascarlo.espeon@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "keywords": [
+    "jest",
+    "matchers",
+    "extend",
+    "extended",
+    "snapshot",
+    "approval",
+    "test",
+    "testing"
+  ],
+  "main": "dist/index.js",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE.md"
+  ],
+  "scripts": {
+    "prebuild": "rimraf dist",
+    "build": "tsc",
+    "prepare": "npm run build",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "23.3.10",
+    "husky": "1.2.1",
+    "jest": "23.6.0",
+    "prettier": "1.15.3",
+    "pretty-quick": "1.8.0",
+    "ts-jest": "23.10.5",
+    "typescript": "3.2.2"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  }
+}
