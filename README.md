@@ -2,6 +2,8 @@
 
 Additional Jest matchers for snapshot testing.
 
+_Requires Jest version >= 23._
+
 ---
 
 [![version](https://img.shields.io/npm/v/jest-extended-snapshot.svg?logo=npm)](https://www.npmjs.com/package/jest-extended-snapshot)
