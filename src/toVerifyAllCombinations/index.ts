@@ -3,8 +3,10 @@ import { toMatchSnapshot } from "jest-snapshot";
 
 import { getAllCombinations } from "./get-all-combinations";
 
+type TestedFunction = (...fnArgs: any) => string;
+
 export default {
-  toVerifyAllCombinations(fn: Function, ...args: any[][]) {
+  toVerifyAllCombinations(fn: TestedFunction, ...args: any[][]) {
     const snapshot: { [k: string]: any } = {};
 
     getAllCombinations(args).forEach((combination) => {

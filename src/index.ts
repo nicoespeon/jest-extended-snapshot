@@ -1,6 +1,6 @@
 import toVerifyAllCombinations from "./toVerifyAllCombinations";
 
-declare module NodeJS {
+declare namespace NodeJS {
   interface Global {
     expect?: jest.Expect;
   }
@@ -13,6 +13,7 @@ const jestExpect = global.expect;
 if (jestExpect !== undefined) {
   jestExpect.extend(toVerifyAllCombinations);
 } else {
+  // tslint:disable-next-line:no-console - This is intentional.
   console.error(
     [
       "Unable to find Jest's global expect.",

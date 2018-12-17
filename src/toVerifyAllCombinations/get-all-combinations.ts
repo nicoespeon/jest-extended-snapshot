@@ -1,8 +1,12 @@
 export function getAllCombinations(paramsList: any[][] = []): any[][] {
-  if (paramsList.length === 0) return [];
+  if (paramsList.length === 0) {
+    return [];
+  }
 
   const [firstParams, ...rest] = paramsList;
-  if (rest.length === 0) return firstParams.map((param: any) => [param]);
+  if (rest.length === 0) {
+    return firstParams.map((param: any) => [param]);
+  }
 
   const combinations: any[] = [];
 
