@@ -20,13 +20,17 @@
   "files": [
     "dist",
     "README.md",
-    "LICENSE.md"
+    "LICENSE.md",
+    "types/index.d.ts"
   ],
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "tsc",
     "prepare": "npm run build",
     "test": "jest"
+  },
+  "dependencies": {
+    "jest-snapshot": "23.6.0"
   },
   "devDependencies": {
     "@types/jest": "23.3.10",

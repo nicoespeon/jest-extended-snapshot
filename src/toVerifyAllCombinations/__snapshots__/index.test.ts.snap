@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should continue working as before 1`] = `
+Object {
+  "-1,foo": "-1 bar",
+  "-1,random": "This is twisted…",
+  "1,foo": "foo #1",
+  "1,random": "random #1",
+}
+`;
