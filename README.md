@@ -4,8 +4,8 @@ Additional Jest matcher for snapshot testing.
 
 ---
 
+[![version](https://img.shields.io/npm/v/jest-extended-snapshot.svg?logo=npm)](https://www.npmjs.com/package/jest-extended-snapshot)
 [![Build Status](https://travis-ci.org/nicoespeon/jest-extended-snapshot.svg?branch=master)](https://travis-ci.org/nicoespeon/jest-extended-snapshot)
-[![version](https://img.shields.io/npm/v/jest-extended-snapshot.svg)](https://www.npmjs.com/package/jest-extended-snapshot)
 
 ## Why?
 
