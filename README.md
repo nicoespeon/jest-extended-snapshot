@@ -1,6 +1,6 @@
 # 👹 jest-extended-snapshot
 
-Additional Jest matcher for snapshot testing.
+Additional Jest matchers for snapshot testing.
 
 ---
 
@@ -11,13 +11,13 @@ Additional Jest matcher for snapshot testing.
 
 If you find yourself in a scenario where you want to add tests after code has been written, you might want to use Jest snapshots.
 
-Typical scenario is working with legacy code: it has no test, but you need to change/fix it. You should set up a test harness first, to ensure there would be no regression. Jest snapshots make this job easier.
+A typical scenario is working with legacy code: it has no test, but you need to change/fix it. You should set up a test harness first, to ensure there would be no regression. Jest snapshots make this job easier.
 
-This lib adds convenients matchers to work in such scenario.
+This lib adds convenient matchers to work in such scenario.
 
 ### Approval testing with Jest snapshots
 
-Take previous example: you don’t know what a piece of code precisely does, but you don't want to break existing behavior. One approach to use in this situation is called "Approval testing".
+Consider the previous example: you don’t know what a piece of code precisely does, but you don't want to break existing behavior. One approach to use in this situation is called "Approval testing".
 
 It can get you test coverage quickly, without having to understand the code.
 
