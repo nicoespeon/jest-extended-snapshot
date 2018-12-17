@@ -1,6 +1,6 @@
 {
   "name": "jest-extended-snapshot",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "description": "Additional Jest matchers for snapshot testing",
   "repository": "https://github.com/nicoespeon/jest-extended-snapshot",
   "author": "Nicolas Carlo <nicolascarlo.espeon@gmail.com>",
