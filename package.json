@@ -20,7 +20,8 @@
   "files": [
     "dist",
     "README.md",
-    "LICENSE.md"
+    "LICENSE.md",
+    "types/index.d.ts"
   ],
   "scripts": {
     "prebuild": "rimraf dist",
