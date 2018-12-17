@@ -2,7 +2,7 @@ import { getAllCombinations } from "./get-all-combinations";
 
 describe("getAllCombinations", () => {
   it("should return an empty array if there is no param", () => {
-    const params = [];
+    const params: any[][] = [];
 
     const combinations = getAllCombinations(params);
 
