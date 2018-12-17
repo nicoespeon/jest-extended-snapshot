@@ -8,6 +8,7 @@ _Requires Jest version >= 23._
 
 [![version](https://img.shields.io/npm/v/jest-extended-snapshot.svg?logo=npm)](https://www.npmjs.com/package/jest-extended-snapshot)
 [![Build Status](https://travis-ci.org/nicoespeon/jest-extended-snapshot.svg?branch=master)](https://travis-ci.org/nicoespeon/jest-extended-snapshot)
+[![Changelog](https://img.shields.io/badge/%F0%9F%93%94-changelog-CD9523.svg)](https://github.com/nicoespeon/jest-extended-snapshot/blob/master/CHANGELOG.md)
 
 ## Why?
 
