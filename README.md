@@ -1,6 +1,11 @@
-# jest-extended-snapshot
+# 👹 jest-extended-snapshot
 
 Additional Jest matcher for snapshot testing.
+
+---
+
+[![Build Status](https://travis-ci.org/nicoespeon/jest-extended-snapshot.svg?branch=master)](https://travis-ci.org/nicoespeon/jest-extended-snapshot)
+[![version](https://img.shields.io/npm/v/jest-extended-snapshot.svg)](https://www.npmjs.com/package/jest-extended-snapshot)
 
 ## Why?
 
