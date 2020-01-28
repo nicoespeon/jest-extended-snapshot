@@ -2,6 +2,8 @@
 
 Additional Jest matchers for snapshot testing.
 
+**📝 Read the [blog post](https://understandlegacycode.com/blog/3-steps-to-add-tests-on-existing-code-when-you-have-short-deadlines/).**
+
 _Requires Jest version >= 23._
 
 ---
