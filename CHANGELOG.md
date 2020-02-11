@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## [v1.1.0](https://github.com/nicoespeon/jest-extended-snapshot/compare/v1.0.1...v1.1.0) (2020-02-11)
 
 Add `range()` helper to generate range of numbers:
 
