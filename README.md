@@ -130,3 +130,20 @@ Object {
 1. In the end, you got a snapshot of what your code does. And you can start refactoring with confidence
 
 👌 I recommend you watch this video of Emily Bache, applying this over the Gilded Rose refactoring kata (in Java): https://youtu.be/zyM2Ep28ED8
+
+## List of helpers
+
+### `range(start, end)` / `range(end)`
+
+Generate a list of numbers from `start` to `end`. Syntactic sugar to generate exhaustive combinations of number inputs.
+
+Defaults `start` to `0` if called with a single parameter.
+
+```ts
+import { range } from "jest-extended-snapshot";
+
+// All are equivalent
+expect(myFunction).toVerifyAllCombinations([0, 1, 2, 3, 4], ["foo"]);
+expect(myFunction).toVerifyAllCombinations(range(0, 4), ["foo"]);
+expect(myFunction).toVerifyAllCombinations(range(4), ["foo"]);
+```

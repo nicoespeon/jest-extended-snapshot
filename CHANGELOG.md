@@ -1,5 +1,22 @@
 # Changelog
 
+## Unreleased
+
+Add `range()` helper to generate range of numbers:
+
+```ts
+// Before
+expect(myFunction).toVerifyAllCombinations(
+  [-1, 0, 1, 2, 3, 4],
+  ["random", "foo"],
+);
+
+// 🚀 Now
+import { range } from "jest-extended-snapshot";
+
+expect(myFunction).toVerifyAllCombinations(range(-1, 4), ["random", "foo"]);
+```
+
 ## [v1.0.1](https://github.com/nicoespeon/jest-extended-snapshot/compare/v1.0.0...v1.0.1) (2020-01-27)
 
 Few security upgrades

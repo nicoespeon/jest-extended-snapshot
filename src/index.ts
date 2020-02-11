@@ -22,3 +22,5 @@ if (jestExpect !== undefined) {
     ].join("\n"),
   );
 }
+
+export { range } from "./range";
