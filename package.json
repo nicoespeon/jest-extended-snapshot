@@ -24,7 +24,7 @@
     "types/index.d.ts"
   ],
   "peerDependencies": {
-    "jest": "23.x"
+    "jest": ">= 23.x"
   },
   "scripts": {
     "prebuild": "rimraf dist",
