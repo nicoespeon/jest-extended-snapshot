@@ -1,5 +1,9 @@
 # Changelog
 
+## [v1.1.2](https://github.com/nicoespeon/jest-extended-snapshot/compare/v1.1.1...v1.1.2) (2020-08-26)
+
+Add simpler setup instructions for Jest 24+, thanks to @FredericEspiau.
+
 ## [v1.1.1](https://github.com/nicoespeon/jest-extended-snapshot/compare/v1.1.0...v1.1.1) (2020-05-14)
 
 Loosen peer dependency so it works with Jest versions above 23.
