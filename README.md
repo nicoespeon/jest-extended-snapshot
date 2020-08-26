@@ -46,7 +46,9 @@ yarn add -D jest-extended-snapshot
 
 ## Set up
 
-Add `jest-extended-snapshot` to your Jest `setupTestFrameworkScriptFile` configuration. [See Jest website](https://jestjs.io/docs/en/configuration.html#setuptestframeworkscriptfile-string) for more information.
+### Jest 23
+
+Add `jest-extended-snapshot` to your Jest `setupTestFrameworkScriptFile` configuration. [See Jest website](https://jestjs.io/docs/en/23.x/configuration#setuptestframeworkscriptfile-string) for more information.
 
 ```json
 "jest": {
@@ -69,6 +71,16 @@ Then in your Jest config:
 ```json
 "jest": {
   "setupTestFrameworkScriptFile": "./test-setup.js"
+}
+```
+
+### Jest version >= 24
+
+Add `jest-extended-snapshot` to your `setupFilesAfterEnv` array in the Jest configuration. [See Jest website](https://jestjs.io/docs/en/configuration.html#setuptestframeworkscriptfile-string) for more information.
+
+```json
+"jest": {
+  "setupFilesAfterEnv": ["jest-extended-snapshot"]
 }
 ```
 
