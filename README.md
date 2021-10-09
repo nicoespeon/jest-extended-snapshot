@@ -84,6 +84,14 @@ Add `jest-extended-snapshot` to your `setupFilesAfterEnv` array in the Jest conf
 }
 ```
 
+### TypeScript
+
+If your editor does not recognise the custom `jest-extended-snapshot` matchers, add a `global.d.ts` file to your project with:
+
+```ts
+import "jest-extended-snapshot";
+```
+
 ## List of additional matchers (API)
 
 ### `.toVerifyAllCombinations([args])`
