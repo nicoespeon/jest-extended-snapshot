@@ -1,5 +1,9 @@
 # Changelog
 
+## [v1.1.3](https://github.com/nicoespeon/jest-extended-snapshot/compare/v1.1.2...v1.1.3) (2021-10-09)
+
+Update dependencies & declare where the types are explicitly. Thanks [@AmedeeVanGasse](https://twitter.com/AmedeeVanGasse) for raising it up!
+
 ## [v1.1.2](https://github.com/nicoespeon/jest-extended-snapshot/compare/v1.1.1...v1.1.2) (2020-08-26)
 
 Add simpler setup instructions for Jest 24+, thanks to @FredericEspiau.
