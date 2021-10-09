@@ -17,6 +17,7 @@
     "testing"
   ],
   "main": "dist/index.js",
+  "types": "types/index.d.ts",
   "files": [
     "dist",
     "README.md",
