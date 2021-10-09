@@ -1,6 +1,6 @@
 # Changelog
 
-## [v1.1.4](https://github.com/nicoespeon/jest-extended-snapshot/compare/v1.1.2...v1.1.4) (2021-10-09)
+## [v1.1.5](https://github.com/nicoespeon/jest-extended-snapshot/compare/v1.1.2...v1.1.5) (2021-10-09)
 
 Update dependencies & declare where the types are explicitly. Thanks [@AmedeeVanGasse](https://twitter.com/AmedeeVanGasse) for raising it up!
 
