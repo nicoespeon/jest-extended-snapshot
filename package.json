@@ -21,15 +21,14 @@
   "files": [
     "dist",
     "README.md",
-    "LICENSE.md",
-    "types/index.d.ts"
+    "LICENSE.md"
   ],
   "peerDependencies": {
     "jest": ">= 23.x"
   },
   "scripts": {
     "prebuild": "rimraf dist",
-    "build": "tsc",
+    "build": "tsc && copyfiles --flat types/index.d.ts dist/",
     "prepublishOnly": "npm run build",
     "lint": "tslint -c tslint.json 'src/**/*.ts'",
     "test": "jest",
@@ -40,6 +39,7 @@
   },
   "devDependencies": {
     "@types/jest": "23.3.10",
+    "copyfiles": "2.4.1",
     "husky": "1.2.1",
     "jest": "23.6.0",
     "prettier": "1.15.3",
